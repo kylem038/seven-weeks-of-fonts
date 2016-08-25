@@ -1,0 +1,54 @@
+/*@media (max-width: 700px) {*/
+
+  html {
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vh;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#494752, #5C5549, #F55C0A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#494752, #5C5549, #F55C0A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#494752, #5C5549, #F55C0A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#494752, #5C5549, #F55C0A); /* Standard syntax */
+  }
+
+  h1 {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+  }
+
+  span {
+    font-family: 'Unna', serif;
+  }
+
+  .first-part {
+    margin-top: 150px;
+    margin-left: 15%;
+  }
+
+  .second-part {
+    margin-top: 150px;
+    margin-left: 15%;
+  }
+
+  .third-part {
+    margin-top: 150px;
+    margin-left: 25%;
+  }
+
+  .fire {
+    font-size: 160%;
+    color: #D93F07;
+  }
+
+  .water {
+    font-size: 160%;
+    color: #41AFD9;
+  }
+
+/*}*/
