@@ -1,15 +1,13 @@
-/*@media (max-width: 700px) {*/
-
   html {
     display: flex;
     justify-content: center;
   }
 
-  body {
+  .week-1{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vh;
+    height: 60%;
+    width: 100%;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#494752, #5C5549, #F55C0A); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#494752, #5C5549, #F55C0A); /* For Opera 11.1 to 12.0 */
@@ -17,26 +15,26 @@
     background: linear-gradient(#494752, #5C5549, #F55C0A); /* Standard syntax */
   }
 
-  h1 {
+  .week-1 h1 {
     display: flex;
     font-family: 'Lato', sans-serif;
   }
 
-  span {
+  .week-1 span {
     font-family: 'Unna', serif;
   }
 
-  .first-part {
+  .week-1 .first-part {
     margin-top: 150px;
     margin-left: 15%;
   }
 
-  .second-part {
+  .week-1 .second-part {
     margin-top: 150px;
     margin-left: 15%;
   }
 
-  .third-part {
+  .week-1 .third-part {
     margin-top: 150px;
     margin-left: 25%;
   }
@@ -51,4 +49,50 @@
     color: #41AFD9;
   }
 
-/*}*/
+  .week-2 {
+    background: url('./images/steve-drawing.jpg') no-repeat;
+    background-size: cover;
+    border: 1px dotted black;
+    height: 600px;
+    width: 400px;
+  }
+
+  .could {
+    font-weight: bolder;
+    color: #F2657C;
+    margin-left: 25%;
+  }
+
+  .animal {
+    color: #6D3C2D;
+    font-size: 150%;
+  }
+
+  .dont {
+    color: #04A3A6;
+    margin-left: 20%;
+    width: 10px;
+  }
+
+  .hate {
+    color: #F54304;
+  }
+
+  .week-2 h1 {
+    margin-left: 78%;
+    margin-top: 12%;
+    margin-bottom: 28%;
+    width: 10px;
+    font-family: 'Vollkorn', serif;
+  }
+
+  .week-2 h2 {
+    margin-top: 25%;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .week-2 h3 {
+    margin-top: 15%;
+    text-align: center;
+  }
