@@ -3,6 +3,7 @@
     justify-content: center;
   }
 
+/*Start week 1*/
   .week-1{
     display: flex;
     flex-direction: column;
@@ -49,6 +50,7 @@
     color: #41AFD9;
   }
 
+/*Start week 2 */
   .week-2 {
     background: url('./images/steve-drawing.jpg') no-repeat;
     background-size: cover;
@@ -95,4 +97,60 @@
   .week-2 h3 {
     margin-top: 15%;
     text-align: center;
+  }
+
+/*Start week 3*/
+  .week-3 {
+    position: relative;
+    background-color: #284907;
+    border: 1px dotted black;
+    height: 600px;
+    width: 400px;
+  }
+
+  .top-half {
+    position: absolute;
+    top: 125px;
+    left: 110px;
+    color: #D8CAA8;
+  }
+
+  .bottom-half {
+    position: absolute;
+    bottom: 250px;
+    left: 115px;
+    color: #D8CAA8;
+  }
+
+  .balance-line {
+    position: absolute;
+    bottom: 335px;
+    left: 100px;
+    width: 200px;
+    border: 5px solid #5C832F;
+  }
+
+  .week-3 h1 {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .week-3 h2 {
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .week-3 h3 {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+  }
+
+  .oscar {
+    position: absolute;
+    bottom: 50px;
+    left: 135px;
+    border: 5px solid #D8CAA8;
+    padding: 5px;
+    color: #D8CAA8;
   }
