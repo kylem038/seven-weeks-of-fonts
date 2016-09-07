@@ -7,7 +7,7 @@
   .week-1{
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 40%;
     width: 100%;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#494752, #5C5549, #F55C0A); /* For Safari 5.1 to 6.0 */
